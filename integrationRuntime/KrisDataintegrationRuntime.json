@@ -1,0 +1,6 @@
+{
+	"name": "KrisDataintegrationRuntime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
