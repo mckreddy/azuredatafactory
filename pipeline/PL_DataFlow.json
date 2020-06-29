@@ -19,6 +19,13 @@
 						"referenceName": "TansformMovies",
 						"type": "DataFlowReference"
 					},
+					"staging": {
+						"linkedService": {
+							"referenceName": "vspsstorageaccount",
+							"type": "LinkedServiceReference"
+						},
+						"folderPath": "blobcontainer/staging"
+					},
 					"compute": {
 						"coreCount": 8,
 						"computeType": "General"
