@@ -5,13 +5,34 @@
 		"factoryName": {
 			"value": "dwdatafactory-dev"
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
 		"KrisDataSqlServer_connectionString": {
+			"value": ""
+		},
+		"VSPSSQLServer_krishnaDM_ADW_connectionString": {
 			"value": ""
 		},
 		"vspsstorageaccount_accountKey": {
 			"value": ""
 		},
+		"vspsstorageaccount_adventureworks2017_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://vspsstorageaccount.dfs.core.windows.net"
+		},
+		"AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://vspskeyvault.vault.azure.net/"
+		},
 		"vspsstorageaccount_properties_typeProperties_url": {
+			"value": "https://vspsstorageaccount.dfs.core.windows.net"
+		},
+		"vspsstorageaccount_adventureworks2017_properties_typeProperties_url": {
 			"value": "https://vspsstorageaccount.dfs.core.windows.net"
 		}
 	}

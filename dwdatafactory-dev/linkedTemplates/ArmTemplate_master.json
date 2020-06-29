@@ -7,15 +7,43 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "dwdatafactory-dev"
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage1'"
+		},
+		"AzureDatabricks1_accessToken": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accessToken' of 'AzureDatabricks1'"
+		},
 		"KrisDataSqlServer_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'KrisDataSqlServer'"
+		},
+		"VSPSSQLServer_krishnaDM_ADW_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'VSPSSQLServer_krishnaDM_ADW'"
 		},
 		"vspsstorageaccount_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'vspsstorageaccount'"
 		},
+		"vspsstorageaccount_adventureworks2017_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'vspsstorageaccount_adventureworks2017'"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://vspsstorageaccount.dfs.core.windows.net"
+		},
+		"AzureKeyVault_properties_typeProperties_baseUrl": {
+			"type": "string",
+			"defaultValue": "https://vspskeyvault.vault.azure.net/"
+		},
 		"vspsstorageaccount_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://vspsstorageaccount.dfs.core.windows.net"
+		},
+		"vspsstorageaccount_adventureworks2017_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://vspsstorageaccount.dfs.core.windows.net"
 		},
@@ -46,14 +74,35 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"AzureDataLakeStorage1_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage1_accountKey')]"
+					},
+					"AzureDatabricks1_accessToken": {
+						"value": "[parameters('AzureDatabricks1_accessToken')]"
+					},
+					"VSPSSQLServer_krishnaDM_ADW_connectionString": {
+						"value": "[parameters('VSPSSQLServer_krishnaDM_ADW_connectionString')]"
+					},
 					"vspsstorageaccount_accountKey": {
 						"value": "[parameters('vspsstorageaccount_accountKey')]"
+					},
+					"vspsstorageaccount_adventureworks2017_accountKey": {
+						"value": "[parameters('vspsstorageaccount_adventureworks2017_accountKey')]"
 					},
 					"KrisDataSqlServer_connectionString": {
 						"value": "[parameters('KrisDataSqlServer_connectionString')]"
 					},
+					"AzureDataLakeStorage1_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
+					},
+					"AzureKeyVault_properties_typeProperties_baseUrl": {
+						"value": "[parameters('AzureKeyVault_properties_typeProperties_baseUrl')]"
+					},
 					"vspsstorageaccount_properties_typeProperties_url": {
 						"value": "[parameters('vspsstorageaccount_properties_typeProperties_url')]"
+					},
+					"vspsstorageaccount_adventureworks2017_properties_typeProperties_url": {
+						"value": "[parameters('vspsstorageaccount_adventureworks2017_properties_typeProperties_url')]"
 					}
 				}
 			},
