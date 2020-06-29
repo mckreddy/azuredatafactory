@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "MoviesDbdataset",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
