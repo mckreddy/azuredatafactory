@@ -20,11 +20,7 @@
 						"type": "DataFlowReference"
 					},
 					"staging": {
-						"linkedService": {
-							"referenceName": "vspsstorageaccount",
-							"type": "LinkedServiceReference"
-						},
-						"folderPath": "blobcontainer/staging"
+						"folderPath": ""
 					},
 					"compute": {
 						"coreCount": 8,
